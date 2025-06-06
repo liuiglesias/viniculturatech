@@ -5,14 +5,14 @@ Este é um projeto de API desenvolvido com Flask para o Tech Challenge Fase 1 5M
 
 <b>Funcionalidades:</b>
 - Autenticação Básica: para maior proteção das rotas sensíveis, usando HTTP. Dados de acesso:
--- user1 / password1
--- user2 / password2
-- Permite ler itens do site http://vitibrasil.cnpuv.embrapa.br/, extraindo dados de páginas web usando BeatifulSoup, especificamente das páginas, usando como pârametro o ano desejado:
--- Produção: Produto, Quantidade e Tipo
--- Processamento: Classificação, Cultivar, Quantidade e Tipo
--- Comercialização: Produto, Quantidade e Tipo
--- Importação: Classificação, País, Quantidade e Valor
--- Exportação: Classificação, País, Quantidade e Valor
+   - user1: <i>password1</i>
+   - user2: <i>password2</i>
+- Permite ler itens do site http://vitibrasil.cnpuv.embrapa.br/, extraindo dados de páginas web usando BeatifulSoup, especificamente das páginas, usando como pârametro o <b>ano</b> desejado:
+   - <b>Produção:</b> Produto, Quantidade e Tipo. Ex>
+   - <b>Processamento:</b> Classificação, Cultivar, Quantidade e Tipo
+   - <b>Comercialização:</b> Produto, Quantidade e Tipo
+   - <b>Importação:</b> Classificação, País, Quantidade e Valor
+   - <b>Exportação:</b> Classificação, País, Quantidade e Valor
 
 
 
@@ -46,4 +46,13 @@ Este é um projeto de API desenvolvido com Flask para o Tech Challenge Fase 1 5M
 
 5. Execute o Aplicativo
 
-   <i>python app.py</i> 
+   <i>python app.py</i>
+
+6. Para Acessar:
+   - <b>Produção:</b> http://127.0.0.1:5000/vitibrasil/producao?ano={ano}
+   - <b>Processamento:</b> http://127.0.0.1:5000/vitibrasil/processamento?ano={ano}
+   - <b>Comercialização:</b> http://127.0.0.1:5000/vitibrasil/comercializacao?ano={ano}
+   - <b>Importação:</b> http://127.0.0.1:5000/vitibrasil/importacao?ano={ano}
+   - <b>Exportação:</b> http://127.0.0.1:5000/vitibrasil/exportacao?ano={ano}
+
+   
