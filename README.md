@@ -39,10 +39,7 @@ Este é um projeto de API desenvolvido com Flask para o Tech Challenge Fase 1 5M
 
 4. Instale as dependências abaixo:
 
-    <i>pip install flask jsonify request</i> 
-    <i>pip install flask-httpauth</i>
-    <i>pip install requests beautifulsoup4</i>
-    <i>pip install flasgger</i>
+    <i>pip install -r requirements.txt</i> 
 
 5. Execute o Aplicativo
 
